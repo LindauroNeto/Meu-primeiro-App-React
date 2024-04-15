@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #0d1017;
+}
+
+/* Header */
+/* ------------------------------------------------------- */
+
+#cabecalho {
+  max-width: 100%;
+  height: 80px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #06090f;
+  padding: 20px;
+}
+
+.navBar {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.abaTituloNav {
+  display: inline-flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.abaTituloNav img {
+  margin-left: 20px;
+  width: 50px;
+  height: auto;
+}
+
+#titulo-principal {
+  font-size: 50px;
+  float: left;
+  margin-left: 20px;
+}
+
+.itemNavBar {
+  display: inline-flex;
+  gap: 40px;
+  font-size: 21px;
+  list-style-type: none;
+  float: right;
+  margin: 0 50px;
+}
+
+.itensNav a {
+  text-decoration: none;
+  color:darkslateblue;
+  transition: color 0.5s;
+  font-weight: bold;
+}
+
+.itensNav a:hover {
+  color: slateblue;
+}
+
+/* Body */
+/* ------------------------------------------------------- */
+#mainContent {
+  max-width: 100%;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.comentarioBody {
+  background-color: #04070e;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.comentarioBody h2 {
+  font-weight: 200;
+}
+
+.blocosContent {
+  margin: 35px;
+  padding: 5px;
+  gap: 7px;
+}
+
+.blocosContent h3 {
+  font-size: 30px;
+  margin-bottom: 9px;
+}
+
+.blocosContent p {
+  font-size: 20px;
+}
+
+/* Footer */
+/* ------------------------------------------------------- */
+.corFundoRod {
+  background-color: #06090f;
+}
+
+#rodapé {
+  max-width: 100%;
+  width: 80%;
+  height: 250px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+.tituloRod {
+  font-size: 40px;
+}
+
+.emailRod {
+  margin-top: 10px;
+}
+
+.emailRod a {
+  text-decoration: none;
+  color:darkslateblue;
+  transition: color 0.5s;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.emailRod a:hover {
+  color: slateblue;
+}
+
+.addresRod {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.copyRod {
+  margin-top: 10px;
+}
