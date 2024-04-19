@@ -1,5 +1,6 @@
 # Reaplicação do Ratatouille (Com REACT!)
 ![ratatouille](https://github.com/LindauroNeto/Reaplicacao-Ratatouille-REACT/assets/140420389/ab3dc97d-91c7-403f-9de8-854668996e7a)
+
 Tentativa de criação de um "site banner" apresentando as ideias do Ratatouille e o que o site dispôe.
 
 ## O que é o Ratatouille?
